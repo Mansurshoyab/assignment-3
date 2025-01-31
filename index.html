@@ -24,7 +24,12 @@
         .paimary-color{
             color: #FFDC26;
         }
+        .paimary-bg{
+            background-color: #FFDC26;
+        }
     </style>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/c350ec5889.js" crossorigin="anonymous"></script>
     <!-- Daisy UI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -44,7 +49,7 @@
 <body class="sora-font">
     <header class="bg-orange-50">
         <!-- navbar section  -->
-        <div class="container">
+        <div class="container mx-auto">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -84,8 +89,11 @@
                     <li><a>Contact us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
-                  <a class="btn">Button</a>
+                <div class="navbar-end gap-2">
+                    <a href=""><i class="fa-regular fa-bell text-2xl"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass text-2xl"></i></a>                    
+                    <button class="btn btn-outline btn-warning border-yellow-300">Login</button>
+                    <a class="btn bg-yellow-300">Register</a>
                 </div>
               </div>
         </div>
